@@ -110,10 +110,10 @@ function Contact() {
           <label htmlFor="subject" className="form-label">
             Subject
           </label>
-          <Field name="subject" as="select">
+          {/* <Field name="subject" as="select">
             <option value="red">Red</option>
             <option value="green">Green</option>
-          </Field>
+          </Field> */}
           {formik.errors.subject && (
             <div className="text-danger">{formik.errors.subject}</div>
           )}
